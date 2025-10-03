@@ -12,7 +12,7 @@ export function Footer() {
               <span className="text-xl font-bold">ThunderHornos</span>
             </Link>
             <p className="text-sm text-muted-foreground">
-              Hornos cerámicos de alta temperatura para profesionales y talleres.
+              Hornos cerámicos de alta/baja temperatura para profesionales y talleres.
             </p>
           </div>
 
@@ -21,12 +21,12 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
                 <Link href="#productos" className="hover:text-accent transition-colors">
-                  Thunder Compact
+                  Thunder Low
                 </Link>
               </li>
               <li>
                 <Link href="#productos" className="hover:text-accent transition-colors">
-                  Thunder Industrial
+                  Thunder High
                 </Link>
               </li>
               <li>
@@ -64,7 +64,7 @@ export function Footer() {
               <li className="flex items-center gap-2">
                 <Mail className="h-4 w-4 text-accent" />
                 <a href="mailto:info@thunderhornos.com" className="hover:text-accent transition-colors">
-                  info@thunderhornos.com
+                  thunderhornos@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-2">
@@ -75,7 +75,7 @@ export function Footer() {
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="h-4 w-4 text-accent mt-0.5" />
-                <span>Ciudad de México, México</span>
+                <span>La Plata, Buenos Aires, Argentina.</span>
               </li>
             </ul>
           </div>

@@ -57,7 +57,7 @@ export function QuoteSection() {
                     <Label htmlFor="name">Nombre Completo *</Label>
                     <Input
                       id="name"
-                      placeholder="Juan Pérez"
+                      placeholder="Diego Macho"
                       value={formData.name}
                       onChange={(e) => handleChange("name", e.target.value)}
                       required
@@ -69,7 +69,7 @@ export function QuoteSection() {
                     <Input
                       id="email"
                       type="email"
-                      placeholder="juan@ejemplo.com"
+                      placeholder="thunderhornos@gmail.com"
                       value={formData.email}
                       onChange={(e) => handleChange("email", e.target.value)}
                       required
@@ -81,7 +81,7 @@ export function QuoteSection() {
                     <Input
                       id="phone"
                       type="tel"
-                      placeholder="+52 123 456 7890"
+                      placeholder="+54 221 456 7890"
                       value={formData.phone}
                       onChange={(e) => handleChange("phone", e.target.value)}
                       required
@@ -92,7 +92,7 @@ export function QuoteSection() {
                     <Label htmlFor="company">Empresa</Label>
                     <Input
                       id="company"
-                      placeholder="Cerámica Artesanal S.A."
+                      placeholder="ThunderHornos."
                       value={formData.company}
                       onChange={(e) => handleChange("company", e.target.value)}
                     />
@@ -106,8 +106,8 @@ export function QuoteSection() {
                       <SelectValue placeholder="Selecciona un modelo" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="compact">Thunder Compact (50L)</SelectItem>
-                      <SelectItem value="industrial">Thunder Industrial (200L)</SelectItem>
+                      <SelectItem value="compact">Thunder Low (12L)</SelectItem>
+                      <SelectItem value="industrial">Thunder High (12L)</SelectItem>
                       <SelectItem value="both">Ambos modelos</SelectItem>
                       <SelectItem value="custom">Necesito asesoría personalizada</SelectItem>
                     </SelectContent>

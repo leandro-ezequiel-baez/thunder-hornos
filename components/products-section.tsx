@@ -29,7 +29,7 @@ export function ProductsSection() {
             </div>
             <CardContent className="p-8 space-y-6">
               <div>
-                <h3 className="text-3xl font-bold mb-2">Thunder Compact</h3>
+                <h3 className="text-3xl font-bold mb-2">Thunder Low</h3>
                 <p className="text-muted-foreground">
                   Ideal para talleres pequeños y medianos. Eficiencia y potencia en un diseño compacto.
                 </p>
@@ -74,7 +74,7 @@ export function ProductsSection() {
             </div>
             <CardContent className="p-8 space-y-6">
               <div>
-                <h3 className="text-3xl font-bold mb-2">Thunder Industrial</h3>
+                <h3 className="text-3xl font-bold mb-2">Thunder Hight</h3>
                 <p className="text-muted-foreground">
                   Para producción a gran escala. Máxima capacidad y rendimiento profesional.
                 </p>
