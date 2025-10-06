@@ -4,6 +4,7 @@ import { ProductsSection } from "@/components/products-section"
 import { SpecsSection } from "@/components/specs-section"
 import { QuoteSection } from "@/components/quote-section"
 import { Footer } from "@/components/footer"
+import WhatsappFloat from "@/components/whatsapp-float";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <ProductsSection />
         <SpecsSection />
         <QuoteSection />
+        <WhatsappFloat />
       </main>
       <Footer />
     </div>

@@ -15,7 +15,7 @@ export function HeroSection() {
           </div>
 
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight text-balance">
-            Hornos Cerámicos de <span className="text-accent">Alta Potencia</span>
+            Hornos de cerámica <span className="text-accent">de alta temperatura</span>
           </h1>
 
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto text-balance">

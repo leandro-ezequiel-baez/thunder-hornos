@@ -57,7 +57,7 @@ export function QuoteSection() {
                     <Label htmlFor="name">Nombre Completo *</Label>
                     <Input
                       id="name"
-                      placeholder="Diego Macho"
+                      placeholder="nombre y apellido"
                       value={formData.name}
                       onChange={(e) => handleChange("name", e.target.value)}
                       required
@@ -69,7 +69,7 @@ export function QuoteSection() {
                     <Input
                       id="email"
                       type="email"
-                      placeholder="thunderhornos@gmail.com"
+                      placeholder="micorreo@gmail.com"
                       value={formData.email}
                       onChange={(e) => handleChange("email", e.target.value)}
                       required
@@ -81,7 +81,7 @@ export function QuoteSection() {
                     <Input
                       id="phone"
                       type="tel"
-                      placeholder="+54 221 456 7890"
+                      placeholder="mi telefono para comunicarme"
                       value={formData.phone}
                       onChange={(e) => handleChange("phone", e.target.value)}
                       required
@@ -92,7 +92,7 @@ export function QuoteSection() {
                     <Label htmlFor="company">Empresa</Label>
                     <Input
                       id="company"
-                      placeholder="ThunderHornos."
+                      placeholder="nombre de comparñia si tengo."
                       value={formData.company}
                       onChange={(e) => handleChange("company", e.target.value)}
                     />
