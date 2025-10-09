@@ -4,21 +4,36 @@ import Link from "next/link"
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-background to-secondary/20 pt-16">
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_120%,rgba(100,120,255,0.08),transparent)]" />
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-16">
+      {/* Background image covering entire section */}
+      <div className="absolute inset-0">
+        <img
+          src="/thunderhornos-hero.jpg"
+          alt=""
+          className="w-full h-full object-cover opacity-70"
+        />
+      </div>
+
+      <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-white/50 to-transparent" />
 
       <div className="container mx-auto px-4 py-20 relative z-10">
         <div className="max-w-4xl mx-auto text-center space-y-8">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/10 border border-accent/20 text-accent text-sm font-medium">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-accent/10 border border-accent/20 text-accent2 text-sm font-medium">
             <Zap className="h-4 w-4" />
             Tecnología de Alta Temperatura
           </div>
 
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight text-balance">
-            Hornos de cerámica <span className="text-accent">de alta temperatura</span>
+            Hornos Cerámicos de <span className="text-accent">Alta Potencia</span>
           </h1>
 
-          <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto text-balance">
+          <div className="relative py-8">
+            <p className="text-2xl md:text-3xl lg:text-4xl font-bold text-balance bg-gradient-to-r from-accent via-orange-500 to-amber-600 bg-clip-text text-transparent py-2">
+              Hornos de alta temperatura para cerámica y vitrofusión
+            </p>
+          </div>
+
+          <p className="text-xl md:text-2xl text-muted-foreground2 max-w-2xl mx-auto text-balance">
             Alcanza temperaturas de hasta 1300°C con nuestros hornos industriales de última generación
           </p>
 
@@ -37,15 +52,15 @@ export function HeroSection() {
           <div className="grid grid-cols-3 gap-8 pt-12 max-w-2xl mx-auto">
             <div className="space-y-2">
               <div className="text-4xl font-bold text-accent">1300°C</div>
-              <div className="text-sm text-muted-foreground">Temperatura Máxima</div>
+              <div className="text-sm text-muted-foreground2">Temperatura Máxima</div>
             </div>
             <div className="space-y-2">
               <div className="text-4xl font-bold text-accent">+10</div>
-              <div className="text-sm text-muted-foreground">Años de Experiencia</div>
+              <div className="text-sm text-muted-foreground2">Años de Experiencia</div>
             </div>
             <div className="space-y-2">
               <div className="text-4xl font-bold text-accent">500+</div>
-              <div className="text-sm text-muted-foreground">Clientes Satisfechos</div>
+              <div className="text-sm text-muted-foreground2">Clientes Satisfechos</div>
             </div>
           </div>
         </div>

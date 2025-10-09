@@ -5,22 +5,22 @@ export function SpecsSection() {
     {
       icon: Thermometer,
       title: "Control Preciso",
-      description: "Sistema de control digital con precisión de ±5°C para resultados perfectos",
+      description: "Sistema de control digital con precisión de ±5°C para resultados perfectos.",
     },
     {
       icon: Clock,
       title: "Calentamiento Rápido",
-      description: "Alcanza 1000°C en menos de 2 horas gracias a nuestro sistema de resistencias",
+      description: "Alcanza 1300°C de manera eficiente gracias a la calidad y potencia de las resistencias.",
     },
     {
       icon: Cpu,
       title: "Programable",
-      description: "Hasta 20 programas personalizables con rampas de temperatura y tiempos",
+      description: "Hasta 40 programas personalizables con rampas de temperatura y tiempos.",
     },
     {
       icon: Leaf,
       title: "Eficiencia Energética",
-      description: "Aislamiento térmico de alta calidad que reduce el consumo hasta un 30%",
+      description: "Aislamiento térmico de alta calidad que reduce el consumo hasta un 30%.",
     },
   ]
 
@@ -57,16 +57,47 @@ export function SpecsSection() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-accent mt-1">•</span>
-                  <span>Voltaje: 220V / 380V trifásico</span>
+                  <span>Voltaje: 220 W</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-accent mt-1">•</span>
-                  <span>Material refractario: Fibra cerámica de alta densidad</span>
+                  <span>potencia: 2700 W</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-accent mt-1">•</span>
-                  <span>Resistencias: Kanthal APM de larga duración</span>
+                  <span>Capacidad: 12 litros</span>
                 </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-accent mt-1">•</span>
+                  <span>Chasis de acero inoxidable.</span>
+                </li> 
+                <li className="flex items-start gap-2">
+                  <span className="text-accent mt-1">•</span>
+                  <span>Medidas internas: 230 x 230 x 250 (mm)</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-accent mt-1">•</span>
+                  <span>Medidas externas: 350 x 350 x 370 (mm)</span>
+                </li>
+                <li className="flex flex-col items-start gap-2">
+                <div className="flex items-start gap-2">
+                  <span className="text-accent mt-1">•</span>
+                  <span>Material refractario:</span>
+                </div>
+                <ul className="text-accent pl-6 space-y-2 text-muted-foreground list-disc">
+                  <li>
+                    Manta de fibra de cerámica de alta densidad libre de amianto y asbesto (no tóxico)
+                  </li>
+                  <li>
+                    Ladrillos refractarios K26
+                  </li>
+                </ul>
+              </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-accent mt-1">•</span>
+                  <span>Resistencias: Kanthal A1 de larga duración</span>
+                </li>              
+                             
               </ul>
             </div>
             <div className="space-y-4">
@@ -80,13 +111,21 @@ export function SpecsSection() {
                   <span className="text-accent mt-1">•</span>
                   <span>Termocupla tipo K de alta precisión</span>
                 </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-accent mt-1">•</span>
-                  <span>Manual de usuario y recetas</span>
-                </li>
+                
                 <li className="flex items-start gap-2">
                   <span className="text-accent mt-1">•</span>
                   <span>Soporte técnico especializado</span>
+                </li>
+              </ul>
+              <h3 className="text-2xl font-bold">Opcional</h3>
+              <ul className="space-y-3 text-muted-foreground">
+                <li className="flex items-start gap-2">
+                  <span className="text-accent mt-1">•</span>
+                  <span>Placas de alta temperatura</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <span className="text-accent mt-1">•</span>
+                  <span>Pilares de alta temperatura</span>
                 </li>
               </ul>
             </div>

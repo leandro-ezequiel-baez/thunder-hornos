@@ -29,7 +29,7 @@ export function ProductsSection() {
             </div>
             <CardContent className="p-8 space-y-6">
               <div>
-                <h3 className="text-3xl font-bold mb-2">Thunder Low</h3>
+                <h3 className="text-3xl font-bold mb-2">Thunder 12L</h3>
                 <p className="text-muted-foreground">
                   Ideal para talleres pequeños y medianos. Eficiencia y potencia en un diseño compacto.
                 </p>
@@ -42,15 +42,15 @@ export function ProductsSection() {
                 </div>
                 <div className="flex items-center gap-3">
                   <Gauge className="h-5 w-5 text-accent" />
-                  <span className="text-sm">Capacidad: 50 litros</span>
+                  <span className="text-sm">Capacidad: 12 litros</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Zap className="h-5 w-5 text-accent" />
-                  <span className="text-sm">Potencia: 6 kW</span>
+                  <span className="text-sm">Potencia: 2700 W</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Shield className="h-5 w-5 text-accent" />
-                  <span className="text-sm">Garantía: 2 años</span>
+                  <span className="text-sm">Garantía: 1 año</span>
                 </div>
               </div>
 
@@ -61,7 +61,7 @@ export function ProductsSection() {
           </Card>
 
           {/* Horno Industrial */}
-          <Card className="overflow-hidden border-2 hover:border-accent transition-colors">
+          {/* <Card className="overflow-hidden border-2 hover:border-accent transition-colors">
             <div className="aspect-square bg-secondary/50 relative overflow-hidden">
               <img
                 src="/large-industrial-ceramic-kiln-oven-professional.jpg"
@@ -103,7 +103,7 @@ export function ProductsSection() {
                 <Link href="#cotizacion">Solicitar Cotización</Link>
               </Button>
             </CardContent>
-          </Card>
+          </Card> */}
         </div>
       </div>
     </section>

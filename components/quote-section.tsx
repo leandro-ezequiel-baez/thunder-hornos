@@ -88,18 +88,10 @@ export function QuoteSection() {
                     />
                   </div>
 
-                  <div className="space-y-2">
-                    <Label htmlFor="company">Empresa</Label>
-                    <Input
-                      id="company"
-                      placeholder="nombre de comparñia si tengo."
-                      value={formData.company}
-                      onChange={(e) => handleChange("company", e.target.value)}
-                    />
-                  </div>
+                  
                 </div>
 
-                <div className="space-y-2">
+                {/* <div className="space-y-2">
                   <Label htmlFor="model">Modelo de Interés *</Label>
                   <Select value={formData.model} onValueChange={(value) => handleChange("model", value)} required>
                     <SelectTrigger id="model">
@@ -112,7 +104,7 @@ export function QuoteSection() {
                       <SelectItem value="custom">Necesito asesoría personalizada</SelectItem>
                     </SelectContent>
                   </Select>
-                </div>
+                </div> */}
 
                 <div className="space-y-2">
                   <Label htmlFor="message">Mensaje</Label>

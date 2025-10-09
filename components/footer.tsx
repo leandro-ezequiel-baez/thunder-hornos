@@ -12,7 +12,7 @@ export function Footer() {
               <span className="text-xl font-bold">ThunderHornos</span>
             </Link>
             <p className="text-sm text-muted-foreground">
-              Hornos cerámicos de alta/baja temperatura para profesionales y talleres.
+              Hornos de alta/baja temperatura para cerámica y vitrofusión para particulares y talleres.
             </p>
           </div>
 
@@ -21,19 +21,19 @@ export function Footer() {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li>
                 <Link href="#productos" className="hover:text-accent transition-colors">
-                  Thunder Low
+                  Thunder 12L
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="#productos" className="hover:text-accent transition-colors">
                   Thunder High
                 </Link>
-              </li>
-              <li>
+              </li> */}
+              {/* <li>
                 <Link href="#especificaciones" className="hover:text-accent transition-colors">
                   Especificaciones
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
 
